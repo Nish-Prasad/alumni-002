@@ -113,9 +113,9 @@ if($total!=0){
       </div>
       <ul class="list">
         <li><a href="index.php">Home</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="services.php">Services</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="#">Terms</a></li>
+        <li><a href="terms.php">Terms</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>
       <p class="copyright">Future Coders @2021</p>
