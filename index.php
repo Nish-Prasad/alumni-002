@@ -1,8 +1,16 @@
 <?php include "connection.php"; 
 session_start();
 
-?>
+if(!isset($_SESSION['username'])){
+  $tagname="Login";
+  $linkname="login.php";
+  
+}else{
+  $linkname="log_out.php";
+  $tagname="Logout";
+}
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +39,7 @@ session_start();
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
-            <li><a href="login.php">Login</a></li>
+            <li><a href="<?php echo $linkname ?>"><?php echo $tagname ?></a></li>
             <li><a href="feedback.php">Feedback</a></li>
         </ul>
         <label class="checkbtn">
