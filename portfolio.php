@@ -2,7 +2,10 @@
 session_start();
 
 if(!isset($_SESSION['username'])){
-  header("Location:index.php");
+  header("Location:login.php");
+  $tagname="Login";
+}else{
+  $tagname="Logout";
 }
 
 
@@ -54,7 +57,7 @@ if($pimage==""){
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
-            <li><a href="log_out.php">Logout</a></li>
+            <li><a href="log_out.php"><?php echo $tagname ?></a></li>
             <li><a href="feedback.php">Feedback</a></li>
         </ul>
         <label class="checkbtn">

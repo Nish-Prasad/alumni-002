@@ -1,3 +1,17 @@
+<?php include "connection.php"; 
+session_start();
+
+if(!isset($_SESSION['username'])){
+  $tagname="Login";
+  $linkname="login.php";
+  
+}else{
+  $linkname="log_out.php";
+  $tagname="Logout";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
