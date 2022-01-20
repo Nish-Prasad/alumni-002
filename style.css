@@ -331,7 +331,9 @@ form .signup-link a:hover{
     margin-right: 1rem;
 }
 
-
+.about_row{
+  margin-top: 140px;
+}
 .about_column {
   float: left;
   width: 33.3%;
@@ -354,6 +356,11 @@ form .signup-link a:hover{
 
 .about_container {
   padding: 0 16px;
+}
+
+
+.about_container p{
+  padding: 20px;
 }
 
 .about_container::after, .row::after {
@@ -528,5 +535,23 @@ hr{
   margin: 10px auto;
   border-radius: 50%;
 } */
+
+.home{
+  min-height: 700px;
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 70px 60px;
+  grid-template-columns: repeat(3 1fr) 250px;
+  row-gap: 180px;
+  column-gap: 180px;
+}
+.home-img{
+  display: flex;
+}
+.home-img div{
+  padding: 20px;
+}
+
 
 

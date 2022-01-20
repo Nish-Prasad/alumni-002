@@ -47,56 +47,70 @@ if(!isset($_SESSION['username'])){
                 </label>
             </nav>
         </header>
-        <section>
+        <section class="home">
+            <div class="home-img">
+                <div><img src="image1.jpg"></div>
+                <div>
+                    <p><button class="about_button">Notice</button></p>
+                    <div class="about_container">
 
-            
+                        <p class="about_title"><a href="#">Techno Fest</a></p>
+                        <p><a href="#">Techno Fest</a></p>
+                        <p><a href="#">Techno Fest</a></p>
+                        <p><a href="#">Techno Fest</a></p>
+                        <p><a href="#">Techno Fest</a></p>
 
-            <div>
-                <div class="slider">
-                    <div class="myslider fade" style="display:block;">
-                        <div class="txt">
-                            <h1>Image 1</h1>
-                            <p>North Bengal University Alumni Website</p>
-                        </div>
-                        <img src="image1.jpg"  class="sliderimg" style="width: 100%; height:100%;">
                     </div>
-                    <div class="myslider fade">
-                        <div class="txt">
-                            <h1>Image 2</h1>
-                            <p>North Bengal University Alumni Website</p>
-                        </div>
-                        <img src="image2.jpg" class="sliderimg" style="width: 100%; height:100%;">
-                    </div>
-                    <div class="myslider fade">
-                        <div class="txt">
-                            <h1>Image 3</h1>
-                            <p>North Bengal University Alumni Website</p>
-                        </div>
-                        <img src="image1.jpg" class="sliderimg" style="width: 100%; height:100%;">
-                    </div>
-                    <div class="myslider fade">
-                        <div class="txt">
-                            <h1>Image 4</h1>
-                            <p>North Bengal University Alumni Website</p>
-                        </div>
-                        <img src="image2.jpg" class="sliderimg" style="width: 100%; height:100%;">
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                </div>
+            </div>
+            <div class="about_row">
+                <div class="about_column">
+                    <div class="about_card">
+                        <p><button class="about_button">Event</button></p>
+                        <div class="about_container">
 
+                            <p class="about_title"><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
 
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="dotsbox" style="text-align:center;">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                        <span class="dot" onclick="currentSlide(5)"></span>
+                <div class="about_column">
+                    <div class="about_card">
+                        <p><button class="about_button">Event</button></p>
+                        <div class="about_container">
+
+                            <p class="about_title"><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about_column">
+                    <div class="about_card">
+                        <p><button class="about_button">Event</button></p>
+                        <div class="about_container">
+
+                            <p class="about_title"><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+                            <p><a href="#">Techno Fest</a></p>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
-
+            </div>
         </section>
         <!--- Footer code start --->
         <section class="footer">
