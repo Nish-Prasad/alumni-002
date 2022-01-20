@@ -538,20 +538,20 @@ hr{
 
 .home{
   min-height: 700px;
-  width: 90%;
-  margin: 30px auto;
+  
+  margin: 20px auto;
   display: grid;
   grid-template-rows: 70px 60px;
   grid-template-columns: repeat(3 1fr) 250px;
   row-gap: 180px;
-  column-gap: 180px;
+  column-gap: 80px;
 }
 .home-img{
   display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
 }
-.home-img div{
-  padding: 20px;
-}
+
 
 
 

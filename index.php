@@ -51,7 +51,7 @@ if(!isset($_SESSION['username'])){
             <div class="home-img">
                 <div><img src="image1.jpg"></div>
                 <div>
-                    <p><button class="about_button">Notice</button></p>
+                    <p><button class="about_button"> Notices and Circulars</button></p>
                     <div class="about_container">
 
                         <p class="about_title"><a href="#">Techno Fest</a></p>
