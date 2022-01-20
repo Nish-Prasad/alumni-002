@@ -63,6 +63,7 @@ main{
   color: #39ca74;
 }
 
+
 .checkbtn {
   font-size: 30px;
   color: white;
@@ -315,10 +316,39 @@ form .signup-link a:hover{
   box-shadow: 4px 4px 4px #E1E1E1;
 }
 .display_data2 tr,.display_data2 td{
+    
     display: flex;
     align-items: center;
 }
 .display_data2 tr{
+    width: 460px;
+    justify-content: space-between;
+    padding: .75rem 1.25rem .75rem .75rem;
+    box-shadow: 4px 4px 16px #bebdbd, -2px -2px 16px #fff;
+    border-radius: 2.5rem;
+
+}
+.display_table1, .display_data1{
+  display: grid;
+  
+}
+.display_table1{
+  min-height: 500px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.display_data1{
+  background-color: rgb(238, 238, 238);
+  row-gap: 1rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 4px #E1E1E1;
+}
+.display_data1 tr,.display_data1 td{
+    display: flex;
+    align-items: center;
+}
+.display_data1 tr{
     width: 460px;
     justify-content: space-between;
     padding: .75rem 1.25rem .75rem .75rem;

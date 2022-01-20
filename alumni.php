@@ -94,7 +94,7 @@ if($total!=0){
 }
 
 ?>
-<a href="portfolio.php">Your profile</a>
+<a href="portfolio.php" class="row button">Your profile</a>
 </table>
 
 <div>

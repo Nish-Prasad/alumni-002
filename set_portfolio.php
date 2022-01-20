@@ -61,9 +61,9 @@ while($id_verify = mysqli_fetch_array($result)) {
       </label>
     </nav>
   </header>
-  <div class="display_table2">
+  <div class="display_table1">
   <form method="POST" action="portfolio_back.php" enctype="multipart/form-data">
-    <table class="display_data2">
+    <table class="display_data1">
     <tbody>
         <tr>
           <td>Profile Picture</td>
@@ -119,7 +119,7 @@ while($id_verify = mysqli_fetch_array($result)) {
         </tr>
       </tbody>
     </table>
-    <button type="submit" name="submit">Submit</button>
+    <button type="submit" name="submit" class="row button">Submit</button>
   </form>
   </div>
 
