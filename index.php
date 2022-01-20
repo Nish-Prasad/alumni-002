@@ -81,6 +81,26 @@ if(!isset($_SESSION['username'])){
                     <a class="prev" onclick="plusSlides(-1)">&#10094</a>
                     <a class="next" onclick="plusSlides(1)">&#10095</a>
 
+
+    <!--- Footer code start --->
+    <section class="footer">
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="#"><i class="fab fa-snapchat"></i> </a>
+        <a href="#"><i class="fab fa-twitter"></i> </a>
+        <a href="#"><i class="fab fa-facebook"></i> </a>
+      </div>
+      <ul class="list">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="services.php">Services</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="terms.php">Terms</a></li>
+        <li><a href="privacy.php">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">Future Coders @2021</p>
+    </section>
+    <!--- Footer code end --->
+
                     <div class="dotsbox" style="text-align:center;">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
@@ -110,6 +130,7 @@ if(!isset($_SESSION['username'])){
             <p class="copyright">Future Coders @2021</p>
         </section>
         <!--- Footer code end --->
+
     </main>
 </body>
 
