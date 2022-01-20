@@ -49,25 +49,10 @@ if(!isset($_SESSION['username'])){
         </header>
         <section class="homebody">
             <div class="home">
-            <div class="home-img">
-                <div><img src="image2.jpg"></div>
-                <div >
-                    <p><button class="about_button"> Notices and Circulars</button></p>
-                    <div class="about_container">
-
-                        <p class="about_title"><a href="#">Techno Fest</a></p>
-                        <p><a href="#">Techno Fest</a></p>
-                        <p><a href="#">Techno Fest</a></p>
-                        <p><a href="#">Techno Fest</a></p>
-                        <p><a href="#">Techno Fest</a></p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="about_row">
-                <div class="about_column">
-                    <div class="about_card">
-                        <p><button class="about_button">Event</button></p>
+                <div class="home-img">
+                    <div><img src="image2.jpg"></div>
+                    <div>
+                        <p><button class="about_button"> Notices and Circulars</button></p>
                         <div class="about_container">
 
                             <p class="about_title"><a href="#">Techno Fest</a></p>
@@ -79,37 +64,52 @@ if(!isset($_SESSION['username'])){
                         </div>
                     </div>
                 </div>
+                <div class="about_row">
+                    <div class="about_column">
+                        <div class="about_card">
+                            <p><button class="about_button">Event</button></p>
+                            <div class="about_container">
 
-                <div class="about_column">
-                    <div class="about_card">
-                        <p><button class="about_button">Event</button></p>
-                        <div class="about_container">
+                                <p class="about_title"><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
 
-                            <p class="about_title"><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="about_column">
+                        <div class="about_card">
+                            <p><button class="about_button">Event</button></p>
+                            <div class="about_container">
+
+                                <p class="about_title"><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about_column">
+                        <div class="about_card">
+                            <p><button class="about_button">Event</button></p>
+                            <div class="about_container">
+
+                                <p class="about_title"><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+                                <p><a href="#">Techno Fest</a></p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="about_column">
-                    <div class="about_card">
-                        <p><button class="about_button">Event</button></p>
-                        <div class="about_container">
-
-                            <p class="about_title"><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-                            <p><a href="#">Techno Fest</a></p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
 
         </section>
