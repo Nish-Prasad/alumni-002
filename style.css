@@ -118,6 +118,7 @@ main{
 }
 
 .log-form{
+  
   max-width: 440px;
   width: 100%;
   justify-content: center;
@@ -332,12 +333,12 @@ form .signup-link a:hover{
 }
 
 .about_row{
-  margin-top: 140px;
+  margin-top: 70px;
 }
 .about_column {
   float: left;
   width: 33.3%;
-  margin-bottom: 16px;
+  margin-bottom: 13px;
   padding: 0 8px;
 }
 
@@ -535,20 +536,20 @@ hr{
   margin: 10px auto;
   border-radius: 50%;
 } */
-
-.home{
+.homebody{
+  width: 100%;
   min-height: 700px;
+}
+.home{
   
+  width: 80%;
   margin: 20px auto;
-  display: grid;
-  grid-template-rows: 70px 60px;
-  grid-template-columns: repeat(3 1fr) 250px;
-  row-gap: 180px;
-  column-gap: 80px;
+  
 }
 .home-img{
-  display: flex;
+  display: grid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  grid-template-columns: 1fr 450px;
   margin: 8px;
 }
 

@@ -81,7 +81,7 @@ else{
     
 
     <!--- Login code start --->
-    <section>
+    <section style="background-color: #BBB9B9;">
     <section class="log-form">
         <div class="container">
             <div class="wrapper">

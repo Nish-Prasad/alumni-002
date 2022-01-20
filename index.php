@@ -47,10 +47,11 @@ if(!isset($_SESSION['username'])){
                 </label>
             </nav>
         </header>
-        <section class="home">
+        <section class="homebody">
+            <div class="home">
             <div class="home-img">
-                <div><img src="image1.jpg"></div>
-                <div>
+                <div><img src="image2.jpg"></div>
+                <div >
                     <p><button class="about_button"> Notices and Circulars</button></p>
                     <div class="about_container">
 
@@ -109,8 +110,8 @@ if(!isset($_SESSION['username'])){
                     </div>
                 </div>
             </div>
-
             </div>
+
         </section>
         <!--- Footer code start --->
         <section class="footer">
