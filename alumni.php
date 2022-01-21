@@ -118,7 +118,7 @@ if($total!=0){
         <li><a href="terms.php">Terms</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>
-      <p class="copyright">Future Coders @2021</p>
+      <p class="copyright">&copy;Copyright 2022</p>
     </section>
     <!--- Footer code end --->
     </main>

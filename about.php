@@ -112,7 +112,7 @@ if(!isset($_SESSION['username'])){
                 <li><a href="terms.php">Terms</a></li>
                 <li><a href="privacy.php">Privacy Policy</a></li>
             </ul>
-            <p class="copyright">Future Coders @2021</p>
+            <p class="copyright">&copy;Copyright 2022</p>
         </section>
         <!--- Footer code end --->
     </main>

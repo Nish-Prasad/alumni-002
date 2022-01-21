@@ -54,7 +54,7 @@ if(!isset($_SESSION['username'])){
                 <p>Place memories were created</p>
             </div>
 
-            <h2 style="text-align:center">Login to view Alumni</h2>
+            <h2 style="text-align:center"><a href="login.php">Login</a> to view Alumni</h2>
             <div class="about_row">
                 <div class="about_column">
                     <div class="about_card">
@@ -119,7 +119,7 @@ if(!isset($_SESSION['username'])){
                 <li><a href="terms.php">Terms</a></li>
                 <li><a href="privacy.php">Privacy Policy</a></li>
             </ul>
-            <p class="copyright">Future Coders @2021</p>
+            <p class="copyright">&copy;Copyright 2022</p>
         </section>
         <!--- Footer code end --->
     </main>
