@@ -326,7 +326,6 @@ form .signup-link a:hover{
     padding: .75rem 1.25rem .75rem .75rem;
     box-shadow: 4px 4px 16px #bebdbd, -2px -2px 16px #fff;
     border-radius: 2.5rem;
-
 }
 .display_table1, .display_data1{
   display: grid;
@@ -376,6 +375,21 @@ form .signup-link a:hover{
   padding: 0 8px;
 }
 
+.f-home{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.f-home1{
+  text-align: center;
+  color: #fff;
+  height: 120px;
+  width: 243px;
+
+}
 .about_card {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -384,6 +398,7 @@ form .signup-link a:hover{
 
 
 .about-section {
+  width: auto;
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
