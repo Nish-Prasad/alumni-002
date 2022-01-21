@@ -84,11 +84,9 @@ if(!isset($_SESSION['username'])){
                     <div class="about_card">
                         <p><button class="about_button">Students' Zone</button></p>
                         <div class="about_container">
-                            
-                            <p>Anti-Ragging Cell</p>
                             <p>Scholarships and Fellowships</p>
                             <p>Placement Cell</p>
-                            <p>Students Grievance Cell</p>
+                            <p>Online application for Technical Assistant Grade II (University Health Centre) – 1 Post (UR)</p>
                             <p>Alumni Association</p>
                             
                         </div>

@@ -6,7 +6,7 @@
   list-style: none;
 }
 body {
-  background-image: url(thumb.jpg);
+  
   font-family: "segoe UI";
   background-color: #ededed;
 }
@@ -310,7 +310,7 @@ form .signup-link a:hover{
   justify-content: center;
 }
 .display_data2{
-  background-color: rgb(238, 238, 238);
+  background-color: #fff;
   row-gap: 1rem;
   padding: 2rem;
   box-shadow: 4px 4px 4px #E1E1E1;
@@ -338,7 +338,7 @@ form .signup-link a:hover{
   justify-content: center;
 }
 .display_data1{
-  background-color: rgb(238, 238, 238);
+  background-color: #fff;
   row-gap: 1rem;
   padding: 2rem;
   box-shadow: 4px 4px 4px #E1E1E1;
